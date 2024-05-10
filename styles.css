@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  background-color: #f0f0f0;
+
+  width: 90%;
+  margin: 20px auto; 
+  background-color: #ffffff; 
+  border: 2px solid #96d5ff; 
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.menu {
+  width: 100%;
+  background-color: #075a7a;
+  padding: 2px;
+}
+
+.menu a {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.menu a:not(:last-child) {
+  border-right: 2px solid #ffffff;
+}
+header img {
+  margin: 0 2px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+.left-column {
+  flex: 6;
+  background-color: white;
+  border: 2px solid rgb(142, 142, 142);
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 1px;
+  margin-left: 5px;
+}
+
+.right-column img {
+  width: 85%;
+  height: 85%;
+}
+
+.right-column {
+  flex: 4;
+  background-color: white;
+  border: 2px solid rgb(142, 142, 142);
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 1px;
+  float: left;
+}
+footer {
+  padding: 1px;
+  box-sizing: border-box;
+  font-size: 20px;
+  
+}
+footer {
+    font-family: Arial, sans-serif; /* Thay đổi font chữ nếu cần */
+}
+footer::first-word {
+    font-weight: bold; /* In đậm chữ cái đầu của từ */
+}
+.bold {
+    font-weight: bold; /* Làm cho chữ đậm */
+}
+
+p {
+    opacity: 0.5; /* Điều chỉnh độ mờ */
+    font-size: 0.8em; /* Điều chỉnh kích thước chữ */
+}
+

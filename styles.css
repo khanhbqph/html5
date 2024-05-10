@@ -1,17 +1,16 @@
 body {
   font-family: Arial, sans-serif;
-  padding: 0;
   background-color: #f0f0f0;
 
   width: 60%;
   margin: 20px auto; 
   background-color: #ffffff; 
-  border: 2px solid #96d5ff; 
-  padding: 10px;
+  border: 1px solid #96d5ff; 
+  padding: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .menu {
-  width: 100%;
+  width: 99,8%;
   background-color: #075a7a;
   padding: 2px;
 }
@@ -24,7 +23,7 @@ body {
 }
 
 .menu a:not(:last-child) {
-  border-right: 2px solid #ffffff;
+  border-right: 1px solid #ffffff;
 }
 header img {
   margin: 0 2px;
@@ -37,13 +36,12 @@ header img {
 
 .left-column {
   flex: 6;
-  height: 700px;
+  height: 530px;
   background-color: white;
-  border: 2px solid rgb(142, 142, 142);
-  padding: 10px;
-  box-sizing: border-box;
+  border: 1px solid rgb(142, 142, 142);
+  padding: 1px;
+  /* box-sizing: border-box; */
   margin: 1px;
-  margin-left: 5px;
 }
 
 .right-column img {
@@ -53,31 +51,31 @@ header img {
 
 .right-column {
   flex: 4;
+  height: 530px;
   background-color: white;
-  border: 2px solid rgb(142, 142, 142);
-  padding: 10px;
-  box-sizing: border-box;
+  border: 1px solid rgb(142, 142, 142);
+  padding: 1px;
+  /* box-sizing: border-box; */
   margin: 1px;
-  float: left;
+  /* float: left; */
 }
 footer {
-  padding: 1px;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 17px;
   
 }
 footer {
-    font-family: Arial, sans-serif; /* Thay đổi font chữ nếu cần */
+    font-family: Arial, sans-serif; 
 }
 footer::first-word {
-    font-weight: bold; /* In đậm chữ cái đầu của từ */
+    font-weight: bold; 
 }
 .bold {
-    font-weight: bold; /* Làm cho chữ đậm */
+    font-weight: bold; 
 }
 
 p {
-    opacity: 0.5; /* Điều chỉnh độ mờ */
-    font-size: 0.8em; /* Điều chỉnh kích thước chữ */
+    opacity: 0.5; 
+    font-size: 0.8em; 
 }
 

@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-color: #f0f0f0;
 
-  width: 90%;
+  width: 60%;
   margin: 20px auto; 
   background-color: #ffffff; 
   border: 2px solid #96d5ff; 
@@ -37,6 +37,7 @@ header img {
 
 .left-column {
   flex: 6;
+  height: 700px;
   background-color: white;
   border: 2px solid rgb(142, 142, 142);
   padding: 10px;

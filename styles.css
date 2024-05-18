@@ -88,6 +88,11 @@ header img {
   text-align: center;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+.product-item b:hover,
+.product-item strong:hover {
+  color: #ff0000; /* Change text color to red on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
 
 .product-item:hover {
   background: linear-gradient(to left, rgb(151, 250, 255), pink);

@@ -96,6 +96,8 @@ header img {
 }
 
 .product-item {
+  overflow: hidden;
+  position: relative;
   background-color: white;
   border: 1px solid #000000;
   padding: 20px;
@@ -104,6 +106,7 @@ header img {
 }
 .product-item b:hover,
 .product-item strong:hover {
+  
   color: #ff0000; /* Change text color to red on hover */
   cursor: pointer; /* Change cursor to pointer on hover */
 }
@@ -116,6 +119,9 @@ header img {
 .product-item img {
   width: 100%;
   height: auto;
+  margin: 1px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .product-item strong {
@@ -124,6 +130,7 @@ header img {
 }
 
 .product-item del strong {
+  
   color: #666666;
   font-style: inherit;
 }

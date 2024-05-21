@@ -5,7 +5,7 @@ body {
   background-color: #ffffff; 
   border: 1px solid #96d5ff; 
   padding: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .menu {
@@ -79,6 +79,7 @@ header img {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .product-item {
@@ -86,7 +87,7 @@ header img {
   border: 1px solid #000000;
   padding: 20px;
   text-align: center;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .product-item b:hover,
 .product-item strong:hover {

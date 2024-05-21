@@ -1,11 +1,12 @@
 body {
   font-family: Arial, sans-serif;
-  max-width: 80%;
+  max-width: 70%;
   margin: 20px auto; 
   background-color: #ffffff; 
   border: 1px solid #96d5ff; 
   padding: 5px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 .menu {
@@ -18,6 +19,7 @@ body {
 
 .menu-items {
   display: flex;
+  line-height: 35px;
   flex-grow: 1; /* Allows the menu-items to take up all the available space */
 }
 
@@ -45,7 +47,18 @@ body {
 }
 
 .search-form input {
-  padding: 2px;
+  width: 150px;
+  padding: 1px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  justify-content: center;
+  
+}
+.search-form input:hover {
+  width: 250px;
+  padding: 1px;
+  transition: 0.5s;
+  font-size: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
   justify-content: center;
@@ -111,7 +124,7 @@ header img {
 }
 
 .product-item del strong {
-  color: #8d8d8d;
+  color: #666666;
   font-style: inherit;
 }
 

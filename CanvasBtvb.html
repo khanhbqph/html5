@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 & CSS3 Logo on Canvas</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        canvas {
+            border: 1px solid #d3d3d3;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="logoCanvas" width="540" height="200"></canvas>
+
+    <script>
+        const canvas = document.getElementById('logoCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Vẽ logo HTML5
+        function drawHTML5Logo(ctx, x, y, width, height) {
+            ctx.save();
+            ctx.translate(x, y);
+
+            // Vẽ hình ngoài (hình ngũ giác chính)
+            ctx.beginPath();
+            ctx.moveTo(0, -10);
+            ctx.lineTo(0.8 * width, 0);
+            ctx.lineTo(width, 0.5 * height);
+            ctx.lineTo(0.8 * width, height);
+            ctx.lineTo(0, 109);
+            
+            ctx.closePath();
+            ctx.fillStyle = '#E44D26';
+            ctx.fill();
+
+            
+
+            // Vẽ văn bản "HTML5"
+            ctx.font = 'bold 50px Arial';
+            ctx.fillStyle = '#FFFFFF';
+            ctx.fillText('HTML5', 0.04 * width, 0.66 * height);
+
+            ctx.restore();
+        }
+
+        // Vẽ văn bản "& CSS3"
+        function drawText(ctx, x, y) {
+            ctx.font = 'bold 60px Arial';
+            ctx.fillStyle = '#E44D26';  
+            ctx.fillText('& CSS3', x, y);
+        }
+
+        // Vẽ cả logo HTML5 và văn bản CSS3
+        drawHTML5Logo(ctx, 50, 50, 200, 100);
+        drawText(ctx, 270, 120);
+    </script>
+</body>
+</html>
